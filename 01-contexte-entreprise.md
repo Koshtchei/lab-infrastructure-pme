@@ -1,6 +1,5 @@
 # Contexte de l'entreprise 
 
-
 ## 1. Présentation de l'entreprise 
 
 ### Nom
