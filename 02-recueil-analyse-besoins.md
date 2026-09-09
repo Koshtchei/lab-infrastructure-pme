@@ -47,7 +47,29 @@ Kaspefinova ne dispose pas actuellement d'un parc généralisé de tablettes ou 
 
 ### 2.1 Parc informatique
 
+#### Siège de Paimpont
 
+Le siège de Paimpont compte 60 collaborateurs. Chaque collaborateur dispose d'un poste de travail principal adapté à son activité.
+
+Les équipes techniques disposent principalement de postes fixes équipés de deux écrans. Les collaborateurs exerçant des fonctions nécessitant davantage de mobilité disposent d'ordinateurs portables.
+
+Certains équipements mobiles supplémentaires sont également mis à disposition des équipes amenées à intervenir directement chez les clients.
+
+Le parc informatique du siège de Paimpont est actuellement composé de :
+
+- 47 ordinateurs fixes attribués aux équipes techniques ;
+- 13 ordinateurs portables utilisés comme postes principaux par la Direction, les services Administration / RH / Finance et les commerciaux ;
+- 10 ordinateurs portables supplémentaires attribués aux techniciens terrain pour les interventions chez les clients ;
+- 4 ordinateurs portables d'intervention mis à disposition du pôle Systèmes & Réseaux ;
+- 94 écrans équipant les 47 postes fixes techniques ;
+- 1 imprimante multifonction professionnelle centralisée ;
+- 4 imprimantes de proximité réparties dans les locaux ;
+- 1 scanner documentaire dédié aux besoins administratifs ;
+- plusieurs équipements périphériques nécessaires aux différents postes de travail : claviers, souris, casques audio et webcams.
+
+Le matériel informatique a été acquis progressivement au cours du développement de l'entreprise. Le parc comprend ainsi plusieurs générations d'équipements présentant des caractéristiques et des niveaux de performances différents.
+
+Les ordinateurs portables utilisés par les fonctions administratives et commerciales font notamment partie des équipements les plus anciens encore en service. Ils restent adaptés aux tâches bureautiques courantes, mais commencent à montrer leurs limites avec l'évolution des logiciels métiers et l'utilisation simultanée de plusieurs applications.
 
 ### 2.2 Infrastructure réseau
 
