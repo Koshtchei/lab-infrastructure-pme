@@ -96,6 +96,38 @@ Les équipements actuellement en service offrent des performances satisfaisantes
 
 ### 2.2 Infrastructure réseau
 
+#### Siège de Paimpont
+
+L'infrastructure réseau locale du siège comprend actuellement :
+
+- 1 firewall physique ;
+- 1 commutateur principal manageable de 48 ports ;
+- 2 commutateurs d'accès manageables de 24 ports ;
+- 1 commutateur secondaire de 16 ports ajouté lors d'une extension des locaux ;
+- 5 bornes Wi-Fi professionnelles réparties dans le bâtiment ;
+- environ 48 prises réseau RJ45 réparties dans les différents espaces de travail ;
+- 1 baie informatique principale regroupant les principaux équipements réseau ;
+- 1 baie de brassage secondaire desservant une partie des locaux ayant fait l'objet d'une extension ;
+- plusieurs panneaux de brassage assurant la liaison entre le câblage des locaux et les équipements réseau.
+
+
+#### Agence des Epesses
+
+L'infrastructure réseau de l'agence des Epesses a été mise en place plus récemment et a été dimensionnée dès son installation pour répondre aux besoins des équipes présentes sur le site tout en conservant une capacité d'évolution.
+
+L'infrastructure réseau locale comprend actuellement :
+
+- 1 firewall physique ;
+- 1 commutateur manageable de 48 ports ;
+- 3 bornes Wi-Fi professionnelles réparties dans les locaux ;
+- environ 32 prises réseau RJ45 réparties dans les différents espaces de travail ;
+- 1 baie informatique regroupant les équipements réseau et les éléments de brassage ;
+- plusieurs panneaux de brassage assurant la liaison entre le câblage des locaux et les équipements réseau.
+
+Les postes fixes et les équipements permanents sont majoritairement raccordés au réseau Ethernet. Le Wi-Fi est principalement utilisé pour les ordinateurs portables, les équipements mobiles et les besoins ponctuels de mobilité au sein de l'agence.
+
+L'infrastructure réseau des Epesses étant plus récente, elle présente une organisation plus homogène et dispose encore d'une capacité d'évolution permettant d'accompagner une augmentation modérée des effectifs sans nécessiter de modification majeure du câblage ou des équipements réseau.
+
 ### 2.3 Infrastructure serveur
 
 ### 2.4 Stockage et partage de données
