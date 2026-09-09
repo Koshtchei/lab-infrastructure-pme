@@ -71,6 +71,29 @@ Le matériel informatique a été acquis progressivement au cours du développem
 
 Les ordinateurs portables utilisés par les fonctions administratives et commerciales font notamment partie des équipements les plus anciens encore en service. Ils restent adaptés aux tâches bureautiques courantes, mais commencent à montrer leurs limites avec l'évolution des logiciels métiers et l'utilisation simultanée de plusieurs applications.
 
+#### Agence des Epesses
+
+L'agence des Epesses compte 20 collaborateurs. Chaque collaborateur dispose d'un poste de travail principal adapté à son activité.
+
+Les équipes techniques disposent principalement de postes fixes équipés de deux écrans. Le responsable d'agence ainsi que les commerciaux disposent d'ordinateurs portables leur permettant de conserver une certaine mobilité.
+
+Des équipements mobiles supplémentaires sont également mis à disposition des équipes amenées à intervenir directement chez les clients.
+
+Le parc informatique de l'agence des Epesses est actuellement composé de :
+
+- 17 ordinateurs fixes attribués aux équipes techniques ;
+- 3 ordinateurs portables utilisés comme postes principaux par le responsable d'agence et les commerciaux ;
+- 5 ordinateurs portables supplémentaires attribués aux techniciens terrain pour les interventions chez les clients ;
+- 2 ordinateurs portables d'intervention mis à disposition du pôle Systèmes & Réseaux ;
+- 34 écrans équipant les 17 postes fixes techniques ;
+- 1 imprimante multifonction professionnelle ;
+- 2 imprimantes de proximité réparties dans les locaux ;
+- plusieurs équipements périphériques nécessaires aux différents postes de travail : claviers, souris, casques audio et webcams.
+  
+L'agence des Epesses ayant été ouverte plus récemment, son parc informatique est globalement plus récent et plus homogène que celui du siège de Paimpont.
+
+Les équipements actuellement en service offrent des performances satisfaisantes pour les activités des collaborateurs et ne présentent pas de problématique majeure de vétusté. Certains équipements pourront néanmoins être concernés par les évolutions futures du système d'information afin de maintenir une cohérence matérielle et technique entre les deux sites.
+
 ### 2.2 Infrastructure réseau
 
 ### 2.3 Infrastructure serveur
