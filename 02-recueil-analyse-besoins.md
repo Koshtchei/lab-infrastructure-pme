@@ -13,7 +13,41 @@ Une synthèse globale permettra ensuite de consolider l'ensemble des besoins ide
 
 ## 2. État des lieux de l'infrastructure existante
 
+Kaspefinova dispose d'un poste informatique par collaborateur, soit un parc d'environ 80 postes de travail répartis entre le siège de Paimpont et l'agence des Epesses.
+
+Le parc s'est constitué progressivement au cours du développement de l'entreprise et comprend plusieurs générations de matériels.
+
+#### Postes de travail
+
+Les fonctions administratives, la Direction ainsi que les équipes commerciales sont principalement équipées d'ordinateurs portables afin de permettre une plus grande mobilité.
+
+Une partie de ces équipements appartient cependant aux générations les plus anciennes du parc. Bien qu'ils restent fonctionnels pour les usages bureautiques courants, leurs performances commencent à être limitées lors de l'utilisation simultanée de plusieurs applications ou de logiciels métiers plus récents.
+
+Les équipes techniques disposent principalement de postes de travail fixes offrant des performances supérieures et davantage adaptées à leurs activités.
+
+Les collaborateurs exerçant des fonctions techniques disposent également de deux écrans afin de faciliter le travail simultané sur plusieurs applications, consoles d'administration ou outils techniques.
+
+Le matériel ayant été acquis progressivement, les caractéristiques des postes de travail ne sont pas entièrement homogènes et varient selon leur date d'acquisition et leur utilisation.
+
+#### Impression
+
+Le siège de Paimpont dispose d'un système d'impression multifonction central permettant notamment l'impression en volume, la numérisation et la copie de documents.
+
+En complément, les différents services disposent d'imprimantes de proximité utilisées pour leurs besoins quotidiens.
+
+L'augmentation des effectifs et du volume d'utilisation entraîne cependant ponctuellement une concentration des impressions sur certains équipements.
+
+Les collaborateurs mobiles, notamment les commerciaux, ne disposent actuellement pas de solution d'impression lors de leurs déplacements. Les documents nécessitant une impression doivent donc généralement être préparés en amont ou imprimés lors du retour dans les locaux de Kaspefinova.
+
+#### Équipements mobiles
+
+Les ordinateurs portables constituent actuellement le principal équipement mobile fourni aux collaborateurs dont les fonctions nécessitent des déplacements ou permettent le télétravail.
+
+Kaspefinova ne dispose pas actuellement d'un parc généralisé de tablettes ou d'équipements dédiés permettant, par exemple, la présentation, la validation ou la signature numérique de documents directement lors des rendez-vous clients.
+
 ### 2.1 Parc informatique
+
+
 
 ### 2.2 Infrastructure réseau
 
