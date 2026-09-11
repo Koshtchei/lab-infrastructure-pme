@@ -173,6 +173,51 @@ L'agence des Epesses ne dispose actuellement d'aucune infrastructure serveur loc
 
 ### 2.4 Stockage et partage de données
 
+Le stockage actuellement utilisé par l'infrastructure serveur de Kaspefinova repose principalement sur les capacités de stockage locales intégrées aux trois hôtes Proxmox du site de Paimpont.
+
+Chaque serveur dispose de son propre ensemble de disques configuré en RAID. Les machines virtuelles sont ainsi hébergées directement sur le stockage local de leur hôte respectif et aucun système de stockage partagé entre les trois serveurs n'est actuellement utilisé.
+
+#### Stockage des hôtes historiques
+
+Les deux serveurs Proxmox les plus anciens disposent chacun de :
+
+- 6 disques de 4 To ;
+- 24 To de capacité brute par serveur ;
+- une configuration en RAID 5 ;
+- environ 20 To de capacité exploitable par serveur.
+
+Ces deux serveurs représentent ainsi environ 40 To de capacité de stockage exploitable.
+
+#### Stockage de l'hôte récent
+
+Le serveur Proxmox ajouté plus récemment dispose de :
+
+- 6 disques de 8 To ;
+- 48 To de capacité brute ;
+- une configuration en RAID 10 ;
+- environ 24 To de capacité exploitable.
+
+Le choix d'une configuration RAID 10 sur cet équipement plus récent permet de privilégier davantage les performances et la résilience du stockage par rapport aux configurations RAID 5 utilisées sur les deux serveurs historiques.
+
+#### Capacité globale
+
+L'infrastructure dispose actuellement d'environ :
+
+- 96 To de capacité de stockage brute ;
+- 64 To de capacité exploitable après configuration des différents RAID.
+
+Cette capacité est cependant répartie entre trois espaces de stockage locaux indépendants. L'espace disponible sur un hôte ne peut donc pas être directement utilisé par les machines virtuelles hébergées sur un autre hôte.
+
+#### Stockage et partage des fichiers
+
+Les fichiers partagés utilisés par les différents services de Kaspefinova sont centralisés sur une machine virtuelle dédiée au service de fichiers.
+
+Cette machine virtuelle, identifiée sous le nom `FILE01`, est hébergée sur l'un des deux serveurs Proxmox historiques et utilise donc le stockage local en RAID 5 de cet hôte.
+
+`FILE01` permet de centraliser les différents espaces de stockage partagés nécessaires aux activités de l'entreprise et de les rendre accessibles aux collaborateurs disposant des autorisations correspondantes.
+
+L'organisation détaillée des espaces partagés et des droits d'accès varie selon les services et les besoins des utilisateurs.
+
 ### 2.5 Sauvegardes
 
 ### 2.6 Accès Internet et interconnexion des sites
