@@ -220,6 +220,49 @@ L'organisation détaillée des espaces partagés et des droits d'accès varie se
 
 ### 2.5 Sauvegardes
 
+La sauvegarde des serveurs et des machines virtuelles de Kaspefinova est centralisée sur un serveur physique dédié situé sur le site de Paimpont.
+
+Ce serveur utilise Proxmox Backup Server et constitue une infrastructure indépendante des trois hôtes Proxmox VE utilisés pour l'environnement de production.
+
+#### Infrastructure de sauvegarde
+
+Le serveur de sauvegarde, identifié sous le nom `PBS01`, dispose actuellement de :
+
+- Proxmox Backup Server ;
+- 8 disques de 10 To ;
+- 80 To de capacité brute ;
+- un stockage configuré en RAIDZ2 ;
+- environ 60 To de capacité exploitable pour les sauvegardes.
+
+Cette configuration permet notamment de maintenir le fonctionnement du stockage en cas de défaillance simultanée de deux disques.
+
+#### Sauvegarde des machines virtuelles
+
+Les trois hôtes Proxmox VE utilisent `PBS01` comme destination pour les sauvegardes de leurs machines virtuelles.
+
+Les tâches de sauvegarde sont automatisées et exécutées deux fois par jour :
+
+- une première sauvegarde à 12 h ;
+- une seconde sauvegarde à 23 h.
+
+Les sauvegardes concernent les principales machines virtuelles utilisées pour les services internes de Kaspefinova, notamment les contrôleurs de domaine, les services réseau, le serveur de fichiers, la supervision ainsi que les outils de gestion du support et du parc informatique.
+
+Proxmox Backup Server utilise notamment des mécanismes de sauvegarde incrémentale et de déduplication permettant de limiter la quantité de données transférées et stockées entre les différents points de restauration.
+
+#### Politique de rétention
+
+Les sauvegardes sont actuellement conservées sur une période de 7 jours.
+
+Cette politique permet de disposer de plusieurs points de restauration récents et de restaurer une machine virtuelle ou certaines données à partir d'une sauvegarde antérieure en cas d'incident.
+
+Des vérifications et des tests de restauration sont réalisés périodiquement par l'équipe informatique afin de contrôler l'exploitabilité des sauvegardes.
+
+#### Localisation des sauvegardes
+
+L'ensemble de l'infrastructure de sauvegarde est actuellement situé sur le site de Paimpont.
+
+Bien que `PBS01` soit physiquement séparé des serveurs hébergeant les machines virtuelles de production, aucune copie supplémentaire des sauvegardes n'est actuellement conservée sur un autre site.
+
 ### 2.6 Accès Internet et interconnexion des sites
 
 ### 2.7 Wi-Fi
