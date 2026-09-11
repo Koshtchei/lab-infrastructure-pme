@@ -130,6 +130,47 @@ L'infrastructure réseau des Epesses étant plus récente, elle présente une or
 
 ### 2.3 Infrastructure serveur
 
+L'infrastructure serveur de Kaspefinova est centralisée sur le site de Paimpont. Elle héberge les principaux services nécessaires au fonctionnement interne de l'entreprise, notamment l'authentification des utilisateurs, certains services réseau, le partage de fichiers, la supervision de l'infrastructure ainsi que les outils utilisés par les équipes informatiques.
+
+L'environnement serveur a évolué progressivement avec le développement de Kaspefinova. Les premiers équipements de virtualisation ont été complétés par un serveur plus récent et plus performant afin d'accompagner l'augmentation du nombre d'utilisateurs, des services hébergés et des besoins en ressources.
+
+#### Hôtes de virtualisation
+
+L'environnement de virtualisation repose actuellement sur trois serveurs physiques utilisant Proxmox VE :
+
+- 2 serveurs physiques de génération plus ancienne :
+  - 2 processeurs Intel Xeon E5 de 8 cœurs chacun ;
+  - 64 Go de mémoire vive ;
+  - 4 interfaces réseau Gigabit Ethernet ;
+  - Proxmox VE.
+
+- 1 serveur physique de génération plus récente :
+  - 1 processeur AMD EPYC de 16 cœurs ;
+  - 128 Go de mémoire vive ;
+  - 2 interfaces réseau Gigabit Ethernet ;
+  - 2 interfaces réseau 10 Gigabit Ethernet ;
+  - Proxmox VE.
+
+Le serveur le plus récent apporte une capacité de calcul, une quantité de mémoire vive et des possibilités de connectivité réseau supérieures aux deux équipements historiques. L'infrastructure reste néanmoins composée de plusieurs générations de matériel présentant des capacités différentes.
+
+#### Machines virtuelles
+
+Les principaux services internes sont actuellement répartis sur plusieurs machines virtuelles :
+
+- 2 machines virtuelles assurant les services Active Directory et DNS ;
+- 1 machine virtuelle assurant le service DHCP ;
+- 1 machine virtuelle dédiée aux services de fichiers ;
+- 1 machine virtuelle dédiée à la supervision de l'infrastructure ;
+- 1 machine virtuelle hébergeant les outils de gestion du support et du parc informatique.
+
+L'infrastructure comprend ainsi actuellement 6 machines virtuelles principales assurant les différents services internes de Kaspefinova.
+
+Les services de messagerie électronique, de bureautique et de collaboration sont actuellement fournis par Microsoft 365 et Microsoft Teams sous forme de services SaaS. Ils ne sont donc pas hébergés sur l'infrastructure serveur locale de Kaspefinova.
+
+#### Agence des Epesses
+
+L'agence des Epesses ne dispose actuellement d'aucune infrastructure serveur locale. Les collaborateurs de l'agence utilisent les services centralisés et hébergés sur l'infrastructure du site de Paimpont.
+
 ### 2.4 Stockage et partage de données
 
 ### 2.5 Sauvegardes
